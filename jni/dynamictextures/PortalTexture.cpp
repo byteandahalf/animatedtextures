@@ -4,8 +4,8 @@
 #include <memory>
 
 PortalTexture::PortalTexture(const TextureData& data) :
-	// Tile 89 is glowstone, so that's the texture that will display this animation
-	TickingTexture(Tile::tiles[89]->tex, 1) {
+	// Tile 87 is Netherrack, so that's the texture that will display this animation
+	TickingTexture(Tile::tiles[87]->tex, 1) {
 
 	// width * height pixels, 4 bytes per pixel (for RGBA data)
 	pixelCount = data.width * data.height * 4;

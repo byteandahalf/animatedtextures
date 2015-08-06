@@ -11,7 +11,7 @@
 void (*_Textures$loadDynamicTextures)(Textures*);
 void Textures$loadDynamicTextures(Textures* tex) {
 	// add our new animated texture, uses portal.png from the mod assets
-	tex->addTickingTexture(new PortalTexture(tex->getTextureData("portal.png")));
+	tex->addTickingTexture(new PortalTexture(tex->getTextureData("aetherPortal.png")));
 	_Textures$loadDynamicTextures(tex);
 }
 
